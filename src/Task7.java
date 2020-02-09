@@ -15,6 +15,6 @@ public class Task7 {
            System.out.println("Данное значение имеется в константах");
        else
            System.out.println("Такой константы нет!");
-       
+
     }
 }
