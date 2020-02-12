@@ -15,6 +15,8 @@ public class Task9 {
             System.out.println("Введите число № " + (i + 1)  + " :");
             nums[i] = in.nextInt();
         }
+        in.close();
+
         System.out.println("Значения массива умноженные на 2:");
         for (int i = 0; i < length; i++) {
             System.out.println(nums[i] * 2);

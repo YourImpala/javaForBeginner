@@ -6,6 +6,8 @@ public class Task12 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите строку с пробелами");
         String str = sc.nextLine();
+        sc.close();
+
         System.out.println("Строка очищенная от пробелов: \n" + str.replace(" ",""));
     }
 }

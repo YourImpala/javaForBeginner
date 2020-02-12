@@ -8,6 +8,7 @@ public class Task13 {
         String str1 = sc.nextLine();
         System.out.println("Введите вторую строку");
         String str2 = sc.nextLine();
+        sc.close();
 
         if (str1.equals(str2)) {
             System.out.println("Строки равны");

@@ -19,6 +19,8 @@ public class Task10 {
                 matrix[k][j] = sc.nextInt();
             }
         }
+        sc.close();
+
         System.out.println("Матрица наполнена полностью");
         Thread.sleep(2000);
         System.out.println("Выведена первая строка матрицы умноженная на 3");

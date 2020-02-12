@@ -22,7 +22,7 @@ public class Task15 {
                 }
             }
         }
-        
+
         System.out.println("Отсортированный массив: ");
         for(double num: nums)
             System.out.println(num);

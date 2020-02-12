@@ -10,6 +10,7 @@ public class Task7 {
 
         System.out.println("Введите число и нажмите enter");
         number = in.nextDouble();
+        in.close();
 
        if (number == X || number == Y || number == Z)
            System.out.println("Данное значение имеется в константах");

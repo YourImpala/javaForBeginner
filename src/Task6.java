@@ -10,6 +10,7 @@ public class Task6 {
         y = in.nextInt();
         System.out.println("Введите третье число");
         z = in.nextInt();
+        in.close();
 
         double avg = (x + y + z) / 3.0;
         System.out.println("Среднеарифмитическое = " + avg);

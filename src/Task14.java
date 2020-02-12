@@ -9,6 +9,8 @@ public class Task14 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число: ");
         str = sc.nextLine();
+        sc.close();
+
         y = Double.parseDouble(str);
         x = (int)y;
         System.out.println("String: " + str);

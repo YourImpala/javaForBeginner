@@ -5,5 +5,6 @@ public class Task4 {
         Scanner in = new Scanner(System.in);
         int num = Integer.parseInt(in.nextLine(), 2);
         System.out.println(num);
+        in.close();
     }
 }

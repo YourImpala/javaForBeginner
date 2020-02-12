@@ -6,6 +6,7 @@ public class Task5 {
 
         Scanner in = new Scanner(System.in);
         int num = Integer.parseInt(in.nextLine());
+        in.close();
 
         System.out.println(num + " X 1 = " + num);
         System.out.println(num + " X 2 = " + num * 2);
