@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Task10 {
     public static void main(String[] args) throws InterruptedException{
         Scanner sc = new Scanner(System.in);
-        int height, width;
+
 
         System.out.println("Введите высоту матрицы");
-        height = sc.nextInt();
+        int height = sc.nextInt();
         System.out.println("Введите ширину матрицы");
-        width = sc.nextInt();
+        int width = sc.nextInt();
 
         int [][] matrix = new int[height][width];
         System.out.println("Создана матрица " + height + "X" + width);

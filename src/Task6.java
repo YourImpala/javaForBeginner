@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Task6 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int x, y, z;
+
         System.out.println("Введите первое число");
-        x = in.nextInt();
+        int x = in.nextInt();
         System.out.println("Введите второе число");
-        y = in.nextInt();
+        int y = in.nextInt();
         System.out.println("Введите третье число");
-        z = in.nextInt();
+        int z = in.nextInt();
         in.close();
 
         double avg = (x + y + z) / 3.0;

@@ -32,10 +32,9 @@ public class Task18 {
     private static void textRewriter(String path, int amount) throws Exception{
         FileWriter fw = new FileWriter(path);
         Scanner sc = new Scanner(System.in);
-        String line;
 
         while (amount > 0){
-            line = sc.nextLine();
+            String line = sc.nextLine();
             fw.write(line + "\n");
             amount--;
         }
